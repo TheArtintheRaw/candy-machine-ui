@@ -26,7 +26,7 @@ import "./App.css";
 import { DEFAULT_TIMEOUT } from './connection';
 import {MintPage} from "./Home";
 
-require('@solana/wallet-adapter-react-ui/styles.css');
+require("@solana/wallet-adapter-react-ui/styles.css");
 
 const getCandyMachineId = (): anchor.web3.PublicKey | undefined => {
     try {
@@ -47,7 +47,7 @@ const network = process.env.REACT_APP_SOLANA_NETWORK as WalletAdapterNetwork;
 
 const rpcHost = process.env.REACT_APP_SOLANA_RPC_HOST!;
 const connection = new anchor.web3.Connection(
-    rpcHost ? rpcHost : anchor.web3.clusterApiUrl('mainnet-beta'),
+    rpcHost ? rpcHost : anchor.web3.clusterApiUrl("mainnet-beta"),
 );
 
 const App = () => {
