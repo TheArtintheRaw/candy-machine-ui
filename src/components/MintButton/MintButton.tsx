@@ -12,7 +12,7 @@ const CTAButton = styled(Button)`
   min-width: 120px !important;
   width: 100%;
   font-size: 1em !important;
-  font-family: Main !important;
+  font-family: 'Electromagnetic Lungs'
   font-weight: bold !important;
   color: #fff !important;
 `;

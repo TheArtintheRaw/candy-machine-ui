@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable no-mixed-operators */
 import styled from "styled-components";
 import {LinearProgress, Paper} from "@mui/material";
 import {WalletMultiButton} from "@solana/wallet-adapter-react-ui";

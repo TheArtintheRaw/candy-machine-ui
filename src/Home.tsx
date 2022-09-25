@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable no-mixed-operators */
 import {useCallback, useEffect, useMemo, useState} from "react";
 import Countdown from "react-countdown";
 import {Snackbar, Alert, Paper, Grid, useTheme, Container, Typography} from "@mui/material";
@@ -291,7 +293,7 @@ export const MintPage = (props: HomeProps) => {
                 });
             }
         },
-        [anchorWallet, props.candyMachineId, props.rpcHost, isEnded, isPresale, props.connection],
+        [anchorWallet, props.candyMachineId, props.rpcHost, isEnded, isPresale, props.connection, itemsRedeemed],
     );
 
 
@@ -564,11 +566,11 @@ export const MintPage = (props: HomeProps) => {
                                 height: mobileMarker ? '100%' : 'auto'
                             }}>
                                 <Typography variant="h4" style={{
-                                    color: '#fff',
+                                    color: '#000000',
                                     fontFamily: 'Main',
                                     fontWeight: 'bold',
                                 }}>
-                                    Collection Name
+                                    Soltergeists
                                 </Typography>
 
                                         <Info type="price" amount={price ? isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel) : mintPrice}/>

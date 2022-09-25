@@ -40,7 +40,7 @@ export const Info = (props: Price) => {
                             {props.type}
                             <Typography display="inline" variant="h6" style={{
                                 color: theme.palette.primary.contrastText,
-                                fontFamily: 'Main',
+                                fontFamily: 'Glitch',
                                 fontWeight: 'bold',
                                 textAlign: 'center',
                                 marginLeft: 5,

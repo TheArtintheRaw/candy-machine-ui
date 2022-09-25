@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import {
   Keypair,
   Commitment,
@@ -19,7 +20,7 @@ interface BlockhashAndFeeCalculator {
   feeCalculator: FeeCalculator;
 }
 
-export const DEFAULT_TIMEOUT = 60000;
+export const DEFAULT_TIMEOUT = 90000;
 
 export const getErrorForTransaction = async (
     connection: Connection,
