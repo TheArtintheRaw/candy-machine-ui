@@ -46,7 +46,7 @@ import {
 import isMobile from "./components/isMobile";
 import {startDate, startWlDate, mintPrice, supply} from "./constants";
 
-const cluster = process.env.REACT_APP_SOLANA_NETWORK.stringify();
+const cluster = process.env.REACT_APP_SOLANA_NETWORK;
 const decimals = process.env.REACT_APP_SPL_TOKEN_TO_MINT_DECIMALS
   ? process.env.REACT_APP_SPL_TOKEN_TO_MINT_DECIMALS.toString()
   : 9;
